@@ -1,12 +1,31 @@
-# React + Vite
+# 🏥 Healthcare Dashboard UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive and visually polished healthcare dashboard built with **React.js**, **Vite.js**, and custom **CSS**. The UI mimics a real-world professional health tracking dashboard with clean visuals, modular components, and mock data displays.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🧭 Fixed sidebar navigation with professional icons
+- 🔍 Header with search bar, user profile, notifications & CTA
+- 🫀 Interactive anatomy section with health indicators
+- 🗂️ Static health status cards (Lungs, Teeth, Bone)
+- 📅 Monthly calendar with mock appointment data
+- 📆 Upcoming schedule with reusable appointment cards
+- 📊 Static activity section with styled bar charts
+- 💻 Fully responsive design using custom CSS and media queries
+
+---
+
+## 🛠️ Tech Stack
+
+- **React.js** (Functional Components)
+- **Vite.js** (for fast builds and HMR)
+- **CSS3** (modular component-level styles)
+- **Icon Library**: [Lucide React](https://lucide.dev/) or Font Awesome (as preferred)
+- **Open-source assets** for anatomy illustration and indicators
+
+---
+
+
