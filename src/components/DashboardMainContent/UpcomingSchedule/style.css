@@ -1,0 +1,31 @@
+.upcoming-schedule {
+  background-color: #f0f4ff;
+  border-radius: 16px;
+  padding: 10px 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+}
+@media screen and (min-width: 768px) {
+  .upcoming-schedule {
+    width: 38vw;
+  }
+}
+.schedule-section {
+  padding: 10px;
+}
+.schedule-group {
+  margin-bottom: 10px;
+}
+
+.schedule-group h4 {
+  margin-bottom: 10px;
+  color: #4c49ed;
+}
+
+.appointment-heading {
+  color: rgb(135, 135, 135);
+}

@@ -1,0 +1,121 @@
+.calendar-section {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+
+
+.calendar-header {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+   width: 38vw;
+}
+
+.calendar{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.calendar-day {
+  background-color: #f6f8fb;
+  border-radius: 8px;
+  padding: 22px;
+  height: 100px;
+  width: 50px;
+  text-align: center;
+  font-size: 14px;
+}
+.day-name {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.name-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.day-slots {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.slot {
+  background-color: #e2e8f0;
+  padding: 2px 6px;
+  font-size: 12px;
+  border-radius: 8px;
+}
+
+.slot-selected {
+  background-color: #4c49ed;
+  color: white;
+  border-radius: 8px;
+}
+.day-selected {
+   background-color: #e7f0ff;
+  border-radius: 8px;
+  padding: 24px;
+  height: 100px;
+  width: 50px;
+  text-align: center;
+  font-size: 14px;
+}
+.date-name {
+  font-size: 18px;
+  color: #47466f;
+  font-weight: 800;
+}
+.appointment-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+
+.dentist {
+  background-color: #4946f2;
+  color: #ffffff;
+  border-radius: 18px;
+  padding: 2px 14px;
+  width: 250px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+h5 {
+  font-size: large;
+}
+
+.appointments-row {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+  margin-right: 15px;
+}
+
+.appointment-card {
+  background-color: #c3ceec;
+  border-radius: 18px;
+  padding: 10px 14px;
+  margin-right: 20px;
+  width: 430px;
+  color: black;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+.calendar-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #4946f2;
+  font-weight: 700;
+  font-size: 25px;
+}

@@ -1,0 +1,56 @@
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f6f8fc;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: space-between;
+  overflow-x: hidden;
+}
+
+
+
+.dashboard-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+.dashboard-activity-container {
+  width: 45vw;
+}
+.calendar-schedule-container {
+  width: 45vw;
+  background-color: rgb(237, 249, 255);
+  padding: 15px;
+}
+.dashboard-calendar-container {
+  display: flex;
+  gap: 15px;
+}
+@media screen and (max-width: 768px) {
+  .dashboard-calendar-container {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+  }
+  .dashboard-section {
+    margin-right: 40px;
+    gap: 0px;
+  }
+  
+  .activity-feed-container {
+    margin-right: 30px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1082px) {
+  .dashboard-section {
+    margin-left: 20px;
+  }
+  .app-container {
+    overflow-x: auto;
+  }
+}
